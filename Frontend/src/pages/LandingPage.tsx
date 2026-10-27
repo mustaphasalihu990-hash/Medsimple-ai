@@ -140,6 +140,23 @@ export function LandingPage() {
           </div>
         </section>
 
+        <section className="expert-video-background" aria-label="Woman studying">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            poster="https://res.cloudinary.com/zeyks8sz/video/upload/so_0/v1793099514/6391724-uhd_2160_3840_24fps.jpg"
+            aria-hidden="true"
+          >
+            <source
+              src="https://res.cloudinary.com/zeyks8sz/video/upload/v1793099514/6391724-uhd_2160_3840_24fps.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </section>
+
         <section id="explore" className="content-section">
           <div className="section-heading">
             <p>Explore by subject</p>
